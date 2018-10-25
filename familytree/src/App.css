@@ -1,0 +1,95 @@
+input {
+  margin: 10px;
+}
+
+button {
+  cursor: pointer;
+  padding: 25px;
+  font-size: 12px;
+}
+
+.App {
+  text-align: center;
+}
+
+.FormInner {
+  background-color: rgba(white);
+  margin-right: 50%;
+  color: white;
+  padding: 25px;
+  position: relative;
+}
+
+.FormOuter {
+  background-color: rgba(0, 0, 0, .5);
+  height: 100%; width: 100%;
+  position: fixed;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.Ghost {
+  visibility: hidden;
+  align-items: center;
+  background-color: black;
+  border-radius: 50px;
+  display: inline-flex;
+  height: 100px; width: 100px;
+  justify-content: center;
+}
+
+.Line {
+  stroke-width:2px;
+  stroke:rgb(0,0,0);
+}
+
+.Person {
+  align-items: center;
+  background-color: grey;
+  border-radius: 50px;
+  color: white;
+  display: inline-flex;
+  font-size: 20px;
+  font-weight: bold;
+  height: 100px; width: 100px;
+  justify-content: center;
+}
+
+.Person:hover { 
+  background-color: #d6d6d6;
+  color: black;
+}
+
+.Male {
+  background-color: #2c5699;
+}
+
+.Female {
+  background-color: #DB5A6B;
+}
+
+#svg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.Tier {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
+}
+
+.Sample {
+  position:absolute;
+  margin: 10px;
+  padding: 20px;
+  top: 0;
+  right: 0;
+}
+
+.Sample:hover {
+  Color: red;
+}
