@@ -10,10 +10,10 @@
 
 ## Usage
 
-> To add a root node enter a name, pick a gender, and click Save Child
-> Click any node to give it a child or delete it
-> Deleting a node will delete all of its descendents
-> Click the Sample Tree button to generate a tree with prefabricated data
+- Add a root node to begin: enter a name, pick a gender, and click Save Child
+- Click any node to give it a child or delete it
+- Deleting a node will delete all of its descendents
+- Click the Sample Tree button to generate a tree with prefabricated data
 
 ## Requirements
 
